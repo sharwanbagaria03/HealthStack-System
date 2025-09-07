@@ -88,6 +88,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'healthstack.context_processors.google_maps_api_key',
             ],
         },
     },
@@ -161,6 +162,9 @@ SMTP_HOST = env('SMTP_HOST')
 SMTP_PORT = env('SMTP_PORT')
 SMTP_USER = env('SMTP_USER')
 SMTP_PASSWORD = env('SMTP_PASSWORD')
+
+###Google Maps API Variables
+GOOGLE_MAPS_API_KEY = env('GOOGLE_MAPS_API_KEY')
 
 # EMAIL
 

@@ -5,9 +5,8 @@ setuptools.setup(
     version=1.0,
     description="SSLCOMERZ PAYMENT GATEWAY",
     long_description=Path("README.md").read_text(),
-    author="SSLCOMMERZ Developers",
-    url="https://github.com/sajanPoddar/sslcommerz-lib-py",
-    author_email="sajan.sslwireless@gmail.com",
+    author="Sharwan Bagaria",
+    url="https://github.com/SharwanBagaria/HealthStack-System",
     keywords=["sslcommerz", "payment", "1.1"],
     packages=setuptools.find_packages(exclude=["tests", "data"]),
     install_requires=[
